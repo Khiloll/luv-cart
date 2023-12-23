@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@500&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDC3C6;
+}
+
+.content {
+    margin: 0 auto;
+    width: 800px;
+.content_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+
+    .content_items_img {
+        margin-bottom: 10px;
+    }
+    .cont_text {
+        margin-bottom: 50px;
+        font-family: 'Merienda';
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .btns{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+
+    .yes {
+        a {
+        padding: 6px 27px;
+        font-weight: 500;
+        font-family: 'Merienda';
+        }
+    }
+
+    a {
+        text-decoration: none;
+        font-family: 'Merienda';
+        color: #000;
+        padding: 5px 15px;
+        border-radius: 3px;
+        background-color: #DFDcd4;
+
+        &:hover {
+            
+        background-color: #dfdcd485;
+        }
+    }
+    
+.fleeingButton {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease; /* добавим плавный переход */
+  }
+} 
+}
+}
+
+
+.y_b_p_items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .f-text {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'Merienda';
+        font-size: 28px;
+        font-weight: 600;
+}
+
+.ftext {
+    font-size: 10px;
+    text-align: end;
+}
+}
+
+@media screen and (max-width: 450px) {
+    .content {
+        width: 90%;
+    }
+}
